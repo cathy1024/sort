@@ -84,6 +84,7 @@ function insertionSort() {
 var numElements = 10000;
 var nums = new CArray(numElements);
 nums.setData();
+// console.log(nums.toString());
 
 var start = new Date().getTime();
 nums.bubbleSort();
